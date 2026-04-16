@@ -33,6 +33,17 @@ minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 include: ["_pages"]
 
+# Settings copied over from the template url
+
+title                    : "Mehul Gunvant Depala Portfolio"
+title_separator          : "-"
+subtitle                 : "Mehul G Depala Portfolio"
+name                     : "Mehul Gunvant Depala"
+description              : "Mehul Depala Portfolio"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo                     : "assets/PXL_20251217_094106762.jpg"
+masthead_title           : "Mehul Gunvant Depala"
+
 plugins:
   - jekyll-feed
 
@@ -55,3 +66,18 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+author:
+  name             : "Mehul Gunvant Depala"
+  avatar           : "assets/PXL_20251217_094106762.jpg"
+  bio              : "Particle Physics PhD Candidate"
+  location         : "University of Liverpool"
+  email            : "M.G.Depala@liverpool.ac.uk"
+  email            : "mehul.gunvant.depala@cern.ch"
+
+defaults: 
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
