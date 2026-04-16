@@ -28,7 +28,8 @@ twitter_username:
 github_username:  MehulGunvantDepala
 
 # Build settings
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 include: ["_pages"]
@@ -44,8 +45,11 @@ url                      : # the base hostname & protocol for your site e.g. "ht
 logo                     : "assets/PXL_20251217_094106762.jpg"
 masthead_title           : "Mehul Gunvant Depala"
 
+
 plugins:
-  - jekyll-feed
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
